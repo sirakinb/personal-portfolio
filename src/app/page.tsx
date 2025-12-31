@@ -674,7 +674,7 @@ function SocialIcons({ smoothPos }: { smoothPos: { x: number; y: number } }) {
   const socialLinks = [
     {
       name: "Instagram",
-      url: "https://instagram.com",
+      url: "https://instagram.com/sirakinb",
       icon: (
         <svg
           width="24"
@@ -689,7 +689,7 @@ function SocialIcons({ smoothPos }: { smoothPos: { x: number; y: number } }) {
     },
     {
       name: "X",
-      url: "https://x.com",
+      url: "https://x.com/defi__papi",
       icon: (
         <svg
           width="24"
@@ -704,7 +704,7 @@ function SocialIcons({ smoothPos }: { smoothPos: { x: number; y: number } }) {
     },
     {
       name: "YouTube",
-      url: "https://youtube.com",
+      url: "https://youtube.com/@sirakinb",
       icon: (
         <svg
           width="24"
@@ -719,7 +719,7 @@ function SocialIcons({ smoothPos }: { smoothPos: { x: number; y: number } }) {
     },
     {
       name: "LinkedIn",
-      url: "https://linkedin.com",
+      url: "https://linkedin.com/in/sirakinb",
       icon: (
         <svg
           width="24"

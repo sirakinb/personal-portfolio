@@ -352,48 +352,13 @@ function PortfolioLink({ smoothPos }: { smoothPos: { x: number; y: number } }) {
 
   const portfolioItems = [
     { 
-      name: "Projects", 
-      href: "#projects",
+      name: "Pentridge Media", 
+      href: "https://pentridgemedia.com",
       icon: (
         <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5">
-          <path d="M3 3h7v7H3zM14 3h7v7h-7zM14 14h7v7h-7zM3 14h7v7H3z" strokeLinecap="round" strokeLinejoin="round"/>
-        </svg>
-      )
-    },
-    { 
-      name: "Tech Stack", 
-      href: "#stack",
-      icon: (
-        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5">
-          <path d="M16 18l6-6-6-6M8 6l-6 6 6 6" strokeLinecap="round" strokeLinejoin="round"/>
-        </svg>
-      )
-    },
-    { 
-      name: "Services", 
-      href: "#services",
-      icon: (
-        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5">
-          <path d="M12 2v4m0 12v4M4.93 4.93l2.83 2.83m8.48 8.48l2.83 2.83M2 12h4m12 0h4M4.93 19.07l2.83-2.83m8.48-8.48l2.83-2.83" strokeLinecap="round"/>
-        </svg>
-      )
-    },
-    { 
-      name: "About", 
-      href: "#about",
-      icon: (
-        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5">
-          <circle cx="12" cy="8" r="4"/>
-          <path d="M4 20c0-4 4-6 8-6s8 2 8 6" strokeLinecap="round"/>
-        </svg>
-      )
-    },
-    { 
-      name: "Contact", 
-      href: "#contact",
-      icon: (
-        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5">
-          <path d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" strokeLinecap="round" strokeLinejoin="round"/>
+          <circle cx="12" cy="12" r="10" />
+          <line x1="2" y1="12" x2="22" y2="12" />
+          <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z" />
         </svg>
       )
     },
@@ -467,6 +432,8 @@ function PortfolioLink({ smoothPos }: { smoothPos: { x: number; y: number } }) {
             <a
               key={item.name}
               href={item.href}
+              target="_blank"
+              rel="noopener noreferrer"
               className="relative flex items-center gap-4 px-4 py-3 cursor-none rounded-2xl group overflow-hidden"
               style={{
                 transition: "all 0.3s cubic-bezier(0.16, 1, 0.3, 1)",
